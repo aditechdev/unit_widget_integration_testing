@@ -20,7 +20,9 @@ Type of Automated testing in flutter
 
 Basic Principle of all the testing
 
-~ Arange ~ Assert ~ Act
+`Arange`  
+`Assert`   
+`Act`
 
 ||Unit|Widget|Integration|
 |---|:----:|:---:|---:|
