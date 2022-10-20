@@ -1,5 +1,35 @@
 # unit_widget_integration_testing
 
+## What is testing
+
+- Ensure what app should exactly do
+    - Testing for regressions
+
+Types of Testing
+- Manual : By useing real device
+- Automated : By automated test.
+
+Type of Automated testing in flutter
+- Unit Test
+    - For all code besides the UI widgets
+    - One test of unit usually tests a single class 
+- Widget Test
+    - For testing a single widget
+- Integration Test
+    - For testing large parts of the app from the user perspective.
+
+Basic Principle of all the testing
+
+~ Arange ~ Assert ~ Act
+
+||Unit|Widget|Integration|
+|---|:----:|:---:|---:|
+| Confidence|Low|Higher|Highest|
+|Maintainence Cost| Low|Higher|Highest|
+|Dependencies| Low|Higher|Highest|
+|Evolution Speed|Quick|Quick|Slow|
+
+
 A new Flutter project.
 
 ## Getting Started
